@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_basic_parent/haohuigou_basic_parent.iml" filepath="$PROJECT_DIR$/haohuigou_basic_parent/haohuigou_basic_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_basic_parent/haohuigou_basic_util/haohuigou_basic_util.iml" filepath="$PROJECT_DIR$/haohuigou_basic_parent/haohuigou_basic_util/haohuigou_basic_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_config_server/haohuigou_config_server.iml" filepath="$PROJECT_DIR$/haohuigou_config_server/haohuigou_config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_eureka_server/haohuigou_eureka_server.iml" filepath="$PROJECT_DIR$/haohuigou_eureka_server/haohuigou_eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_parent.iml" filepath="$PROJECT_DIR$/haohuigou_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_plat_parent/haohuigou_plat_interface/haohuigou_plat_interface.iml" filepath="$PROJECT_DIR$/haohuigou_plat_parent/haohuigou_plat_interface/haohuigou_plat_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_plat_parent/haohuigou_plat_parent.iml" filepath="$PROJECT_DIR$/haohuigou_plat_parent/haohuigou_plat_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_plat_parent/haohuigou_plat_service/haohuigou_plat_service.iml" filepath="$PROJECT_DIR$/haohuigou_plat_parent/haohuigou_plat_service/haohuigou_plat_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haohuigou_zuul_server/haohuigou_zuul_server.iml" filepath="$PROJECT_DIR$/haohuigou_zuul_server/haohuigou_zuul_server.iml" />
+    </modules>
+  </component>
+</project>
