@@ -7,6 +7,7 @@
         <groupId>cn.hm.haohuigou</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>haohuigou_plat_service</artifactId>
@@ -28,10 +29,10 @@
             <scope>test</scope>
         </dependency>
         <!--配置中心支持-->
-        <!-- <dependency>
+         <dependency>
              <groupId>org.springframework.cloud</groupId>
              <artifactId>spring-cloud-starter-config</artifactId>
-         </dependency>-->
+         </dependency>
 
         <!-- Eureka 客户端依赖 -->
         <dependency>
@@ -52,5 +53,22 @@
             <version>2.9.2</version>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <!--springboot的maven插件-->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.4.1.RELEASE</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
