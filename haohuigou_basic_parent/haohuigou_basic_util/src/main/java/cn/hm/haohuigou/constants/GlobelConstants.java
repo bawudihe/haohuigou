@@ -1,0 +1,26 @@
+package cn.hm.haohuigou.constants;
+
+/**
+ * 全局常量
+ */
+public class GlobelConstants {
+
+    //treeData的redis的key
+    public static final String REDIS_PRODUCTTYPE_KEY="treedata";
+
+
+    //模板的数据:model的key
+    public static final String PAGE_MODE="page_mode";
+
+    //哪一个模板
+    public static final String PAGE_TEMPLATE="page_template";
+
+    //最终输出到哪一个html
+    public static final String PAGE_TEMPLATE_HTML="page_template_html";
+    //商品模块保存商品的显示属性时，前台传过来的productId
+    public static final String PRODUCTID="productId";
+    //商品模块保存商品的显示属性时，前台传过来的ViewProperties
+    public static final String VIEWPROPERTIES="viewProperties";
+
+
+}

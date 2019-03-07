@@ -14,6 +14,9 @@
         <module>haohuigou_zuul_server</module>
         <module>haohuigou_basic_parent</module>
         <module>haohuigou_plat_parent</module>
+        <module>haohuigou_product_parent</module>
+        <module>haohuigou_mp_generated</module>
+        <module>haohuigou_common_parent</module>
     </modules>
     <!--变量的声明-->
     <properties>
